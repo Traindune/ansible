@@ -1,0 +1,8 @@
+all:
+  hosts:
+    brandonsrv01:
+      ansible_host: 10.205.108.222
+  vars:
+    ansible_connection: ssh
+    ansible_ssh_user: root
+    ansible_ssh_pass: ROOT
